@@ -115,3 +115,61 @@ Create a file alx.js in the js directory with this one line inside: console.log(
 Create a file school.js in the js with this one line inside: console.log("School")
 Add all these new files to git
 Commit your changes (message: “Starting to code today, so cool”) and push to the remote server
+
+# Evaluation Quiz
+
+0. What is source code management?
+
+Organizing and tracking changes to software code
+
+1. What is Git?
+
+A version control system
+
+2. What is GitHub?
+
+A cloud storage service for code repositories
+
+3. What is the difference between Git and GitHub?
+   Score: 1.0
+
+Git is used for version control, while GitHub is a code hosting platform
+
+4. How do you create a new Git repository on your own computer?
+
+Run the command `git init
+
+5. What is a README file?
+
+A file that describes the project and its usage
+
+6. How do you write a good README?
+
+Include installation instructions, usage examples, and project documentation
+
+7. How do you commit changes in Git?
+
+Run the command git add followed by git commit
+
+8. How do you write helpful commit messages?
+
+Use short, descriptive messages that explain the changes made
+
+9. How do you push code to a remote repository?
+
+Use the command git push
+
+10. You have the following files in your project directory:
+
+julien@ubuntu:/tmp/git_project$ ls
+0-test 0-test~ #0-test# file1 file2
+You’ve edited 0-test and you want to add it to your GitHub repo. What is the correct command to add only 0-test?
+
+git add 0-test
+
+Tips:
+You should learn what each of these commands would actually do if you were to execute them!
+
+11. What command can you use to see what changes have been staged, which haven’t, and which files aren’t being tracked by Git?
+
+git status
